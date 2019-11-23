@@ -1,0 +1,27 @@
+{
+  "name": "eshop",
+  "version": "1.0.0",
+  "description": "E-Shop is ecommerce wevsite with all functionalities. MERN stack is used in this project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "eshop"
+  },
+  "keywords": [
+    "eshop",
+    "e-commerce",
+    "website",
+    "e-commerce",
+    "open source e-commerce",
+    "ecommerce backend with Node.js MongoDB",
+    "ecommerce frontend with React",
+    "React",
+    "Nodejs",
+    "MongoDB"
+  ],
+  "author": "Raju Choudhary",
+  "license": "ISC"
+}

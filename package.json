@@ -1,7 +1,7 @@
 {
-  "name": "eshop",
+  "name": "doctor",
   "version": "1.0.0",
-  "description": "E-Shop is ecommerce wevsite with all functionalities. MERN stack is used in this project.",
+  "description": "Doctor is platform for doctor and patient with all functionalities. MERN stack is used in this project.",
   "main": "server.js",
   "scripts": {
     "start": "SET NODE_ENV=production & node server.js",
@@ -9,16 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "eshop"
+    "url": "doctor"
   },
   "keywords": [
-    "eshop",
-    "e-commerce",
-    "website",
-    "e-commerce",
-    "open source e-commerce",
-    "ecommerce backend with Node.js MongoDB",
-    "ecommerce frontend with React",
+    "doctor",
+    "doctor patient",
+    "open source",
+    "doctor-patient backend with Node.js MongoDB",
+    "doctor-patient frontend with React",
     "React",
     "Nodejs",
     "MongoDB"

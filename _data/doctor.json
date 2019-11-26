@@ -1,0 +1,243 @@
+[
+  {
+    "_id": "5d7a514b5d2c12c7449be042",
+    "name": "Noah Thomas",
+    "email": "doctor1@gmail.com",
+    "password": "123456",
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": 1234567890,
+    "education": [
+      "Doctor of Medicine, University of Texas, USA (1990)",
+      "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
+    ],
+    "experience": ["25 years of Experience in Medicine"],
+    "office": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
+    "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
+    "socialmedia": [
+      "http://www.facebook.com",
+      "http://www.twitter.com",
+      "doctor.skype8"
+    ],
+    "schedule": {
+      "weekdays": ["monday", "wednesday", "friday"],
+      "time": ["8 AM - 2 PM", "4 PM - 6 PM"]
+    }
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be043",
+    "name": "Oliver Brown",
+    "email": "doctor2@gmail.com",
+    "password": "123456",
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": 1234567890,
+    "education": [
+      "Doctor of Medicine, University of Texas, USA (1990)",
+      "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
+    ],
+    "experience": ["25 years of Experience in Medicine"],
+    "office": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
+    "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
+    "socialmedia": [
+      "http://www.facebook.com",
+      "http://www.twitter.com",
+      "doctor.skype8"
+    ],
+    "schedule": {
+      "weekdays": ["tuesday", "thursday", "saturday"],
+      "time": ["10 AM - 12 PM", "2 PM - 5 PM"]
+    }
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be044",
+    "name": "Mia Martin",
+    "email": "doctor3@gmail.com",
+    "password": "123456",
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": 1234567890,
+    "education": [
+      "Doctor of Medicine, University of Texas, USA (1990)",
+      "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
+    ],
+    "experience": ["25 years of Experience in Medicine"],
+    "office": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
+    "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
+    "socialmedia": [
+      "http://www.facebook.com",
+      "http://www.twitter.com",
+      "doctor.skype8"
+    ],
+
+    "schedule": {
+      "weekdays": ["monday", "wednesday", "friday"],
+      "time": ["8 AM - 2 PM", "4 PM - 6 PM"]
+    }
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be045",
+    "name": "Lily King",
+    "email": "doctor4@gmail.com",
+    "password": "123456",
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": 1234567890,
+    "education": [
+      "Doctor of Medicine, University of Texas, USA (1990)",
+      "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
+    ],
+    "experience": ["25 years of Experience in Medicine"],
+    "office": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
+    "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
+    "socialmedia": [
+      "http://www.facebook.com",
+      "http://www.twitter.com",
+      "doctor.skype8"
+    ],
+    "schedule": {
+      "weekdays": ["tuesday", "thursday", "saturday"],
+      "time": ["10 AM - 12 PM", "2 PM - 5 PM"]
+    }
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be046",
+    "name": "Noah Walker",
+    "email": "doctor5@gmail.com",
+    "password": "123456",
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": 1234567890,
+    "education": [
+      "Doctor of Medicine, University of Texas, USA (1990)",
+      "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
+    ],
+    "experience": ["25 years of Experience in Medicine"],
+    "office": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
+    "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
+    "socialmedia": [
+      "http://www.facebook.com",
+      "http://www.twitter.com",
+      "doctor.skype8"
+    ],
+    "schedule": {
+      "weekdays": ["monday", "wednesday", "friday"],
+      "time": ["8 AM - 2 PM", "4 PM - 6 PM"]
+    }
+  },
+  {
+    "_id": "5c8a1d5b0190b214360dc031",
+    "name": "Noah Walker",
+    "email": "doctor6@gmail.com",
+    "password": "123456",
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": 1234567890,
+    "education": [
+      "Doctor of Medicine, University of Texas, USA (1990)",
+      "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
+    ],
+    "experience": ["25 years of Experience in Medicine"],
+    "office": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
+    "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
+    "socialmedia": [
+      "http://www.facebook.com",
+      "http://www.twitter.com",
+      "doctor.skype8"
+    ],
+    "schedule": {
+      "weekdays": ["tuesday", "thursday", "saturday"],
+      "time": ["10 AM - 12 PM", "2 PM - 5 PM"]
+    }
+  },
+  {
+    "_id": "5c8a1d5b0190b214360dc032",
+    "name": "William Ryan",
+    "email": "doctor7@gmail.com",
+    "password": "123456",
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": 1234567890,
+    "education": [
+      "Doctor of Medicine, University of Texas, USA (1990)",
+      "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
+    ],
+    "experience": ["25 years of Experience in Medicine"],
+    "office": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
+    "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
+    "socialmedia": [
+      "http://www.facebook.com",
+      "http://www.twitter.com",
+      "doctor.skype8"
+    ],
+    "schedule": {
+      "weekdays": ["monday", "wednesday", "friday"],
+      "time": ["8 AM - 2 PM", "4 PM - 6 PM"]
+    }
+  },
+  {
+    "_id": "5c8a1d5b0190b214360dc033",
+    "name": "Michael White",
+    "email": "doctor8@gmail.com",
+    "password": "123456",
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": 1234567890,
+    "education": [
+      "Doctor of Medicine, University of Texas, USA (1990)",
+      "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
+    ],
+    "experience": ["25 years of Experience in Medicine"],
+    "office": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
+    "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
+    "socialmedia": [
+      "http://www.facebook.com",
+      "http://www.twitter.com",
+      "doctor.skype8"
+    ],
+    "schedule": {
+      "weekdays": ["tuesday", "thursday", "saturday"],
+      "time": ["10 AM - 12 PM", "2 PM - 5 PM"]
+    }
+  },
+  {
+    "_id": "5c8a1d5b0190b214360dc034",
+    "name": " Lucas Williams",
+    "email": "doctor9@gmail.com",
+    "password": "123456",
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": 1234567890,
+    "education": [
+      "Doctor of Medicine, University of Texas, USA (1990)",
+      "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
+    ],
+    "experience": ["25 years of Experience in Medicine"],
+    "office": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
+    "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
+    "socialmedia": [
+      "http://www.facebook.com",
+      "http://www.twitter.com",
+      "doctor.skype8"
+    ],
+    "schedule": {
+      "weekdays": ["monday", "wednesday", "friday"],
+      "time": ["8 AM - 2 PM", "4 PM - 6 PM"]
+    }
+  },
+  {
+    "_id": "5c8a1d5b0190b214360dc035",
+    "name": "Thomas Anderson",
+    "email": "doctor10@gmail.com",
+    "password": "123456",
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": 1234567890,
+    "education": [
+      "Doctor of Medicine, University of Texas, USA (1990)",
+      "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
+    ],
+    "experience": ["25 years of Experience in Medicine"],
+    "office": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
+    "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
+    "socialmedia": [
+      "http://www.facebook.com",
+      "http://www.twitter.com",
+      "doctor.skype8"
+    ],
+    "schedule": {
+      "weekdays": ["tuesday", "thursday", "saturday"],
+      "time": ["10 AM - 12 PM", "2 PM - 5 PM"]
+    }
+  }
+]

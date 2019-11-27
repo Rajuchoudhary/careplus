@@ -4,6 +4,7 @@
     "name": "Noah Thomas",
     "email": "doctor1@gmail.com",
     "password": "123456",
+    "photo": "photo.jpg",
     "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
     "phone": 1234567890,
     "education": [
@@ -28,6 +29,7 @@
     "name": "Oliver Brown",
     "email": "doctor2@gmail.com",
     "password": "123456",
+    "photo": "photo.jpg",
     "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
     "phone": 1234567890,
     "education": [
@@ -52,6 +54,7 @@
     "name": "Mia Martin",
     "email": "doctor3@gmail.com",
     "password": "123456",
+    "photo": "photo.jpg",
     "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
     "phone": 1234567890,
     "education": [
@@ -77,6 +80,7 @@
     "name": "Lily King",
     "email": "doctor4@gmail.com",
     "password": "123456",
+    "photo": "photo.jpg",
     "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
     "phone": 1234567890,
     "education": [
@@ -101,6 +105,7 @@
     "name": "Noah Walker",
     "email": "doctor5@gmail.com",
     "password": "123456",
+    "photo": "photo.jpg",
     "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
     "phone": 1234567890,
     "education": [
@@ -125,6 +130,7 @@
     "name": "Noah Walker",
     "email": "doctor6@gmail.com",
     "password": "123456",
+    "photo": "photo.jpg",
     "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
     "phone": 1234567890,
     "education": [
@@ -149,6 +155,7 @@
     "name": "William Ryan",
     "email": "doctor7@gmail.com",
     "password": "123456",
+    "photo": "photo.jpg",
     "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
     "phone": 1234567890,
     "education": [
@@ -173,6 +180,7 @@
     "name": "Michael White",
     "email": "doctor8@gmail.com",
     "password": "123456",
+    "photo": "photo.jpg",
     "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
     "phone": 1234567890,
     "education": [
@@ -197,6 +205,7 @@
     "name": " Lucas Williams",
     "email": "doctor9@gmail.com",
     "password": "123456",
+    "photo": "photo.jpg",
     "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
     "phone": 1234567890,
     "education": [
@@ -221,6 +230,7 @@
     "name": "Thomas Anderson",
     "email": "doctor10@gmail.com",
     "password": "123456",
+    "photo": "photo.jpg",
     "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
     "phone": 1234567890,
     "education": [

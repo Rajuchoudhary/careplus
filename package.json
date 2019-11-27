@@ -1,7 +1,7 @@
 {
   "name": "doctor",
   "version": "1.0.0",
-  "description": "Doctor is platform for doctor and patient with all functionalities. MERN stack is used in this project.",
+  "description": "CarePlus is platform for doctor and patient with all functionalities. MERN stack is used in this project.",
   "main": "server.js",
   "scripts": {
     "start": "SET NODE_ENV=production & node server.js",

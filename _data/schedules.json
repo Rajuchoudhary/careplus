@@ -1,6 +1,14 @@
 [
   {
-    "day": ["monday", "tuesday", "wednesady", "friday", "saturday", "sunday"],
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesady",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
     "time": ["8 AM - 2 PM", "10 AM - 12 PM", "2 PM - 5 PM", "4 PM - 6PM"]
   }
 ]

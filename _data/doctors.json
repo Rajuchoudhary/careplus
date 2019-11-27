@@ -5,8 +5,8 @@
     "email": "doctor1@gmail.com",
     "password": "123456",
     "photo": "photo.jpg",
-    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
-    "phone": 1234567890,
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": "1234567890",
     "education": [
       "Doctor of Medicine, University of Texas, USA (1990)",
       "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
@@ -15,9 +15,18 @@
     "address": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
     "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
     "socialMedia": [
-      "http://www.facebook.com",
-      "http://www.twitter.com",
-      "doctor.skype8"
+      {
+        "media": "facebook",
+        "link": "http://www.facebook.com"
+      },
+      {
+        "media": "twitter",
+        "link": "http://www.twitter.com"
+      },
+      {
+        "media": "skype",
+        "link": "doctor.skype8"
+      }
     ],
     "schedule": {
       "weekdays": ["monday", "wednesday", "friday"],
@@ -30,8 +39,8 @@
     "email": "doctor2@gmail.com",
     "password": "123456",
     "photo": "photo.jpg",
-    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
-    "phone": 1234567890,
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": "1234567890",
     "education": [
       "Doctor of Medicine, University of Texas, USA (1990)",
       "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
@@ -40,9 +49,18 @@
     "address": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
     "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
     "socialMedia": [
-      "http://www.facebook.com",
-      "http://www.twitter.com",
-      "doctor.skype8"
+      {
+        "media": "facebook",
+        "link": "http://www.facebook.com"
+      },
+      {
+        "media": "twitter",
+        "link": "http://www.twitter.com"
+      },
+      {
+        "media": "skype",
+        "link": "doctor.skype8"
+      }
     ],
     "schedule": {
       "weekdays": ["tuesday", "thursday", "saturday"],
@@ -55,8 +73,8 @@
     "email": "doctor3@gmail.com",
     "password": "123456",
     "photo": "photo.jpg",
-    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
-    "phone": 1234567890,
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": "1234567890",
     "education": [
       "Doctor of Medicine, University of Texas, USA (1990)",
       "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
@@ -65,9 +83,18 @@
     "address": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
     "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
     "socialMedia": [
-      "http://www.facebook.com",
-      "http://www.twitter.com",
-      "doctor.skype8"
+      {
+        "media": "facebook",
+        "link": "http://www.facebook.com"
+      },
+      {
+        "media": "twitter",
+        "link": "http://www.twitter.com"
+      },
+      {
+        "media": "skype",
+        "link": "doctor.skype8"
+      }
     ],
 
     "schedule": {
@@ -81,8 +108,8 @@
     "email": "doctor4@gmail.com",
     "password": "123456",
     "photo": "photo.jpg",
-    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
-    "phone": 1234567890,
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": "1234567890",
     "education": [
       "Doctor of Medicine, University of Texas, USA (1990)",
       "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
@@ -91,9 +118,18 @@
     "address": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
     "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
     "socialMedia": [
-      "http://www.facebook.com",
-      "http://www.twitter.com",
-      "doctor.skype8"
+      {
+        "media": "facebook",
+        "link": "http://www.facebook.com"
+      },
+      {
+        "media": "twitter",
+        "link": "http://www.twitter.com"
+      },
+      {
+        "media": "skype",
+        "link": "doctor.skype8"
+      }
     ],
     "schedule": {
       "weekdays": ["tuesday", "thursday", "saturday"],
@@ -106,8 +142,8 @@
     "email": "doctor5@gmail.com",
     "password": "123456",
     "photo": "photo.jpg",
-    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
-    "phone": 1234567890,
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": "1234567890",
     "education": [
       "Doctor of Medicine, University of Texas, USA (1990)",
       "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
@@ -116,9 +152,18 @@
     "address": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
     "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
     "socialMedia": [
-      "http://www.facebook.com",
-      "http://www.twitter.com",
-      "doctor.skype8"
+      {
+        "media": "facebook",
+        "link": "http://www.facebook.com"
+      },
+      {
+        "media": "twitter",
+        "link": "http://www.twitter.com"
+      },
+      {
+        "media": "skype",
+        "link": "doctor.skype8"
+      }
     ],
     "schedule": {
       "weekdays": ["monday", "wednesday", "friday"],
@@ -131,8 +176,8 @@
     "email": "doctor6@gmail.com",
     "password": "123456",
     "photo": "photo.jpg",
-    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
-    "phone": 1234567890,
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": "1234567890",
     "education": [
       "Doctor of Medicine, University of Texas, USA (1990)",
       "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
@@ -141,9 +186,18 @@
     "address": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
     "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
     "socialMedia": [
-      "http://www.facebook.com",
-      "http://www.twitter.com",
-      "doctor.skype8"
+      {
+        "media": "facebook",
+        "link": "http://www.facebook.com"
+      },
+      {
+        "media": "twitter",
+        "link": "http://www.twitter.com"
+      },
+      {
+        "media": "skype",
+        "link": "doctor.skype8"
+      }
     ],
     "schedule": {
       "weekdays": ["tuesday", "thursday", "saturday"],
@@ -156,8 +210,8 @@
     "email": "doctor7@gmail.com",
     "password": "123456",
     "photo": "photo.jpg",
-    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
-    "phone": 1234567890,
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": "1234567890",
     "education": [
       "Doctor of Medicine, University of Texas, USA (1990)",
       "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
@@ -166,9 +220,18 @@
     "address": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
     "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
     "socialMedia": [
-      "http://www.facebook.com",
-      "http://www.twitter.com",
-      "doctor.skype8"
+      {
+        "media": "facebook",
+        "link": "http://www.facebook.com"
+      },
+      {
+        "media": "twitter",
+        "link": "http://www.twitter.com"
+      },
+      {
+        "media": "skype",
+        "link": "doctor.skype8"
+      }
     ],
     "schedule": {
       "weekdays": ["monday", "wednesday", "friday"],
@@ -181,8 +244,8 @@
     "email": "doctor8@gmail.com",
     "password": "123456",
     "photo": "photo.jpg",
-    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
-    "phone": 1234567890,
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": "1234567890",
     "education": [
       "Doctor of Medicine, University of Texas, USA (1990)",
       "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
@@ -191,9 +254,18 @@
     "address": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
     "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
     "socialMedia": [
-      "http://www.facebook.com",
-      "http://www.twitter.com",
-      "doctor.skype8"
+      {
+        "media": "facebook",
+        "link": "http://www.facebook.com"
+      },
+      {
+        "media": "twitter",
+        "link": "http://www.twitter.com"
+      },
+      {
+        "media": "skype",
+        "link": "doctor.skype8"
+      }
     ],
     "schedule": {
       "weekdays": ["tuesday", "thursday", "saturday"],
@@ -206,8 +278,8 @@
     "email": "doctor9@gmail.com",
     "password": "123456",
     "photo": "photo.jpg",
-    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
-    "phone": 1234567890,
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": "1234567890",
     "education": [
       "Doctor of Medicine, University of Texas, USA (1990)",
       "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
@@ -216,9 +288,18 @@
     "address": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
     "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
     "socialMedia": [
-      "http://www.facebook.com",
-      "http://www.twitter.com",
-      "doctor.skype8"
+      {
+        "media": "facebook",
+        "link": "http://www.facebook.com"
+      },
+      {
+        "media": "twitter",
+        "link": "http://www.twitter.com"
+      },
+      {
+        "media": "skype",
+        "link": "doctor.skype8"
+      }
     ],
     "schedule": {
       "weekdays": ["monday", "wednesday", "friday"],
@@ -231,8 +312,8 @@
     "email": "doctor10@gmail.com",
     "password": "123456",
     "photo": "photo.jpg",
-    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
-    "phone": 1234567890,
+    "about": "Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit. Lorem ipsum dolor sit amet, con amit sectetur adipisicing elit.",
+    "phone": "1234567890",
     "education": [
       "Doctor of Medicine, University of Texas, USA (1990)",
       "Medical Orientation Program, St. Louis University (St. Louis, 1996)"
@@ -241,9 +322,18 @@
     "address": "Medical Corporation Professor, Institute Of Coast Private Hospital Campus",
     "speciality": ["Endocrinology", "Paediatric Medicine", "Urology"],
     "socialMedia": [
-      "http://www.facebook.com",
-      "http://www.twitter.com",
-      "doctor.skype8"
+      {
+        "media": "facebook",
+        "link": "http://www.facebook.com"
+      },
+      {
+        "media": "twitter",
+        "link": "http://www.twitter.com"
+      },
+      {
+        "media": "skype",
+        "link": "doctor.skype8"
+      }
     ],
     "schedule": {
       "weekdays": ["tuesday", "thursday", "saturday"],

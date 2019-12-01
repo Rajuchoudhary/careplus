@@ -6,7 +6,8 @@ const {
   getPatient,
   registerPatient,
   updatePatient,
-  deletePatient
+  deletePatient,
+  uploadPatientPhoto
 } = require('../controllers/patients');
 
 //@desc         Get All Patients
@@ -33,5 +34,10 @@ Router.route('/:id').put(updatePatient);
 //@route        DELETE /api/v1/patients/:id
 //@access       Private
 Router.route('/:id').delete(deletePatient);
+
+//@desc         Upload Patient Photo
+//@route        PUT /api/v1/patients/:id/photo
+//@access       Private
+Router.route('/:id/photo').put(uploadPatientPhoto);
 
 module.exports = Router;

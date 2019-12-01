@@ -2,6 +2,8 @@ const express = require('express');
 const colors = require('colors');
 const dotenv = require('dotenv');
 const morgan = require('morgan');
+const fileUpload = require('express-fileupload');
+const path = require('path');
 const connectDB = require('./config/db');
 const errorHandler = require('./middleware/error');
 const app = express();
@@ -12,19 +14,27 @@ dotenv.config({ path: './config/config.env' });
 //Connect to DB
 connectDB();
 
+//Body Parser
+app.use(express.json());
+
 //Route files
 const doctors = require('./routes/doctors');
+const patients = require('./routes/patients');
 
 //Dev logging Middleware
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
 
-//Body Parser
-app.use(express.json());
+//File uploading
+app.use(fileUpload());
+
+//Set static folder
+app.use(express.static(path.join(__dirname, 'public')));
 
 //Mount routers
 app.use('/api/v1/doctors', doctors);
+app.use('/api/v1/patients', patients);
 
 //Custome middlerware error handler
 app.use(errorHandler);

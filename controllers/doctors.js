@@ -29,7 +29,10 @@ exports.getDoctor = asyncHandler(async (req, res, next) => {
 
   if (!doctor) {
     return next(
-      new ErrorResponse(`Doctor profile with id of ${req.params.id}`, 404)
+      new ErrorResponse(
+        `Doctor profile with id of ${req.params.id} not found`,
+        404
+      )
     );
   }
 
@@ -59,7 +62,10 @@ exports.updateDoctor = asyncHandler(async (req, res, next) => {
 
   if (!doctor) {
     return next(
-      new ErrorResponse(`Doctor profile with id of ${req.params.id}`, 404)
+      new ErrorResponse(
+        `Doctor profile with id of ${req.params.id} not found`,
+        404
+      )
     );
   }
   res.status(200).json({ success: true, data: doctor });
@@ -73,8 +79,31 @@ exports.deleteDoctor = asyncHandler(async (req, res, next) => {
 
   if (!doctor) {
     return next(
-      new ErrorResponse(`Doctor profile with id of ${req.params.id}`, 404)
+      new ErrorResponse(
+        `Doctor profile with id of ${req.params.id} not found`,
+        404
+      )
     );
   }
   res.status(200).json({ success: true, data: {} });
+});
+
+//@desc         Upload Doctor Profile Image
+//@route        PUT /api/v1/bootcamps/:id/photo
+//@access       Private
+exports.uploadDoctorPhoto = asyncHandler(async (req, res, next) => {
+  const doctor = await Doctor.findByIdAndDelete(req.params.id);
+
+  if (!doctor) {
+    return next(
+      new ErrorResponse(
+        `Doctor profile with id of ${req.params.id} not found`,
+        404
+      )
+    );
+  }
+
+  if (!req.files) {
+    return next(new ErrorResponse(`Please upload a file`, 400));
+  }
 });

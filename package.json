@@ -1,7 +1,7 @@
 {
-  "name": "doctor",
+  "name": "CarePlus",
   "version": "1.0.0",
-  "description": "CarePlus is platform for doctor and patient with all functionalities. MERN stack is used in this project.",
+  "description": "CarePlus is platform for doctor and patient Appointment booking. MERN stack is used in this project.",
   "main": "server.js",
   "scripts": {
     "start": "SET NODE_ENV=production & node server.js",
@@ -27,6 +27,7 @@
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
     "mongoose": "^5.7.12",
     "morgan": "^1.9.1",
     "nodemon": "^2.0.1"

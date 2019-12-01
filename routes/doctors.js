@@ -5,7 +5,8 @@ const {
   getDoctor,
   registerDoctor,
   updateDoctor,
-  deleteDoctor
+  deleteDoctor,
+  uploadDoctorPhoto
 } = require('../controllers/doctors');
 
 //API
@@ -19,5 +20,7 @@ Router.route('/:id')
   .get(getDoctor)
   .put(updateDoctor)
   .delete(deleteDoctor);
+
+Router.route('/:id/photo').put(uploadDoctorPhoto);
 
 module.exports = Router;

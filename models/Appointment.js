@@ -1,36 +1,49 @@
 const mongoose = require('mongoose');
 
 const AppointmentSchema = new mongoose.Schema({
-  appointments: [
+  doctor: {
+    type: mongoose.Schema.ObjectId,
+    ref: 'Doctor'
+  },
+  status: {
+    type: String,
+    required: true
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now()
+  },
+  appointment: [
     {
-      doctorId: {
+      patient: {
         type: mongoose.Schema.ObjectId,
-        ref: 'Doctor',
+        ref: 'Patient'
+      },
+      day: {
+        type: String,
         required: true
       },
-      appointment: [
-        {
-          patientId: {
-            type: mongoose.Schema.ObjectId,
-            ref: 'Patient',
-            required: true
-          },
-          status: {
-            type: String,
-            required: true
-          },
-          day: {
-            type: String,
-            required: true
-          },
-          time: {
-            type: String,
-            required: true
-          }
-        }
-      ]
+      time: {
+        type: String,
+        required: true
+      }
     }
   ]
 });
+
+// AppointmentSchema.pre(/^find/, function(next) {
+//   this.populate({
+//     path: 'Doctor',
+//     select: 'name'
+//   }).populate({
+//     path: 'Patient',
+//     select: 'name'
+//   });
+// });
+
+// AppointmentSchema.pre('save', function(next) {
+//   this.status = 'open';
+//   next();
+// });
 
 module.exports = mongoose.model('Appointment', AppointmentSchema);

@@ -20,6 +20,7 @@ app.use(express.json());
 //Route files
 const doctors = require('./routes/doctors');
 const patients = require('./routes/patients');
+const appointments = require('./routes/appointments');
 
 //Dev logging Middleware
 if (process.env.NODE_ENV === 'development') {
@@ -35,6 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //Mount routers
 app.use('/api/v1/doctors', doctors);
 app.use('/api/v1/patients', patients);
+app.use('/api/v1/appointments', appointments);
 
 //Custome middlerware error handler
 app.use(errorHandler);

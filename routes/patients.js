@@ -10,34 +10,21 @@ const {
   uploadPatientPhoto
 } = require('../controllers/patients');
 
-//@desc         Get All Patients
-//@route        GET /api/v1/patients/
-//@access       Public
-Router.route('/').get(getPatients);
+const { protect, authrozie } = require('../middleware/auth');
 
-//@desc         Get Single Patient
-//@route        GET /api/v1/patients/:id
-//@access       Public
-Router.route('/:id').get(getPatient);
+Router.route('/')
+  .get(getPatients)
+  .post(protect, authrozie('patient'), registerPatient);
 
-//@desc         Register Patient
-//@route        POST /api/v1/patients/
-//@access       Public
-Router.route('/').post(registerPatient);
+Router.route('/:id')
+  .get(getPatient)
+  .put(protect, authrozie('patient'), updatePatient)
+  .delete(protect, authrozie('patient'), deletePatient);
 
-//@desc         Update Single Patient
-//@route        PUT /api/v1/patients/:id
-//@access       Private
-Router.route('/:id').put(updatePatient);
-
-//@desc         Delete Single Patient
-//@route        DELETE /api/v1/patients/:id
-//@access       Private
-Router.route('/:id').delete(deletePatient);
-
-//@desc         Upload Patient Photo
-//@route        PUT /api/v1/patients/:id/photo
-//@access       Private
-Router.route('/:id/photo').put(uploadPatientPhoto);
+Router.route('/:id/photo').put(
+  protect,
+  authrozie('patient'),
+  uploadPatientPhoto
+);
 
 module.exports = Router;

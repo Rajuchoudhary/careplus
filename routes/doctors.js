@@ -9,16 +9,17 @@ const {
   uploadDoctorPhoto
 } = require('../controllers/doctors');
 
+const { protect, authrozie } = require('../middleware/auth');
+
 //API
-Router.route('/')
-  .get(getDoctors)
-  .post(registerDoctor);
+Router.route('/').get(getDoctors);
+Router.route('/profile').post(protect, authrozie('doctor'), registerDoctor);
 
 Router.route('/:id')
   .get(getDoctor)
-  .put(updateDoctor)
-  .delete(deleteDoctor);
+  .put(protect, authrozie('doctor'), updateDoctor)
+  .delete(protect, authrozie('doctor'), deleteDoctor);
 
-Router.route('/:id/photo').put(uploadDoctorPhoto);
+Router.route('/:id/photo').put(protect, authrozie('doctor'), uploadDoctorPhoto);
 
 module.exports = Router;

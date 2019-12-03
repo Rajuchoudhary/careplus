@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 const morgan = require('morgan');
 const fileUpload = require('express-fileupload');
 const path = require('path');
+const cookieParser = require('cookie-parser');
 const connectDB = require('./config/db');
 const errorHandler = require('./middleware/error');
 const app = express();
@@ -17,7 +18,11 @@ connectDB();
 //Body Parser
 app.use(express.json());
 
+//Cookie Parser
+app.use(cookieParser());
+
 //Route files
+const users = require('./routes/auth');
 const doctors = require('./routes/doctors');
 const patients = require('./routes/patients');
 const appointments = require('./routes/appointments');
@@ -34,6 +39,7 @@ app.use(fileUpload());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Mount routers
+app.use('/api/v1/auth', users);
 app.use('/api/v1/doctors', doctors);
 app.use('/api/v1/patients', patients);
 app.use('/api/v1/appointments', appointments);

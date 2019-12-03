@@ -4,7 +4,7 @@ const asyncHandler = require('../middleware/async');
 const Doctor = require('../models/Doctor');
 
 //@desc         Get All Doctors
-//@route        GET /api/v1/bootcamps
+//@route        GET /api/v1/doctors
 //@access       Public
 exports.getDoctors = asyncHandler(async (req, res, next) => {
   let query;
@@ -23,7 +23,7 @@ exports.getDoctors = asyncHandler(async (req, res, next) => {
 });
 
 //@desc         Get Single Doctors
-//@route        GET /api/v1/bootcamps/:id
+//@route        GET /api/v1/doctors/:id
 //@access       Public
 exports.getDoctor = asyncHandler(async (req, res, next) => {
   const doctor = await Doctor.findById(req.params.id);
@@ -41,7 +41,7 @@ exports.getDoctor = asyncHandler(async (req, res, next) => {
 });
 
 //@desc         Register new Doctor
-//@route        POST /api/v1/bootcamps/
+//@route        POST /api/v1/doctors/register
 //@access       Public
 exports.registerDoctor = asyncHandler(async (req, res, next) => {
   const doctor = await Doctor.create(req.body);
@@ -53,7 +53,7 @@ exports.registerDoctor = asyncHandler(async (req, res, next) => {
 });
 
 //@desc         Update Doctor Profile
-//@route        PUT /api/v1/bootcamps/:id
+//@route        PUT /api/v1/doctors/:id
 //@access       Private
 exports.updateDoctor = asyncHandler(async (req, res, next) => {
   const doctor = await Doctor.findByIdAndUpdate(req.params.id, req.body, {
@@ -73,7 +73,7 @@ exports.updateDoctor = asyncHandler(async (req, res, next) => {
 });
 
 //@desc         Delete Doctor Profile
-//@route        DELETE /api/v1/bootcamps/:id
+//@route        DELETE /api/v1/doctors/:id
 //@access       Private
 exports.deleteDoctor = asyncHandler(async (req, res, next) => {
   const doctor = await Doctor.findByIdAndDelete(req.params.id);
@@ -90,7 +90,7 @@ exports.deleteDoctor = asyncHandler(async (req, res, next) => {
 });
 
 //@desc         Upload Doctor Profile Image
-//@route        PUT /api/v1/bootcamps/:id/photo
+//@route        PUT /api/v1/doctors/:id/photo
 //@access       Private
 exports.uploadDoctorPhoto = asyncHandler(async (req, res, next) => {
   const doctor = await Doctor.findById(req.params.id);

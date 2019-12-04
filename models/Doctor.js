@@ -4,6 +4,7 @@ const DoctorSchema = new mongoose.Schema({
   user: {
     type: mongoose.Schema.ObjectId,
     ref: 'User'
+    // unique: true
   },
   photo: {
     type: String,

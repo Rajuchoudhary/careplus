@@ -26,12 +26,12 @@ exports.getDoctors = asyncHandler(async (req, res, next) => {
 //@route        GET /api/v1/doctors/:id
 //@access       Public
 exports.getDoctor = asyncHandler(async (req, res, next) => {
-  const doctor = await Doctor.findById(req.params.id);
+  const doctor = await Doctor.findById({ user: req.user.id });
 
   if (!doctor) {
     return next(
       new ErrorResponse(
-        `Doctor profile with id of ${req.params.id} not found`,
+        `Doctor profile with id of ${req.user.id} not found`,
         404
       )
     );
@@ -56,15 +56,19 @@ exports.registerDoctor = asyncHandler(async (req, res, next) => {
 //@route        PUT /api/v1/doctors/:id
 //@access       Private
 exports.updateDoctor = asyncHandler(async (req, res, next) => {
-  const doctor = await Doctor.findByIdAndUpdate(req.params.id, req.body, {
-    new: true,
-    runValidators: true
-  });
+  const doctor = await Doctor.findOneAndUpdate(
+    { user: req.user.id },
+    req.body,
+    {
+      new: true,
+      runValidators: true
+    }
+  );
 
   if (!doctor) {
     return next(
       new ErrorResponse(
-        `Doctor profile with id of ${req.params.id} not found`,
+        `Doctor profile with id of ${req.user.id} not found`,
         404
       )
     );
@@ -76,12 +80,12 @@ exports.updateDoctor = asyncHandler(async (req, res, next) => {
 //@route        DELETE /api/v1/doctors/:id
 //@access       Private
 exports.deleteDoctor = asyncHandler(async (req, res, next) => {
-  const doctor = await Doctor.findByIdAndDelete(req.params.id);
+  const doctor = await Doctor.findOneAndDelete({ user: req.user.id });
 
   if (!doctor) {
     return next(
       new ErrorResponse(
-        `Doctor profile with id of ${req.params.id} not found`,
+        `Doctor profile with id of ${req.user.id} not found`,
         404
       )
     );
@@ -93,12 +97,13 @@ exports.deleteDoctor = asyncHandler(async (req, res, next) => {
 //@route        PUT /api/v1/doctors/:id/photo
 //@access       Private
 exports.uploadDoctorPhoto = asyncHandler(async (req, res, next) => {
-  const doctor = await Doctor.findById(req.params.id);
+  const doctor = await Doctor.findOne({ user: req.user.id });
+  console.log('profile', doctor);
 
   if (!doctor) {
     return next(
       new ErrorResponse(
-        `Doctor profile with id of ${req.params.id} not found`,
+        `Doctor profile with id of ${req.user.id} not found`,
         404
       )
     );
@@ -109,6 +114,8 @@ exports.uploadDoctorPhoto = asyncHandler(async (req, res, next) => {
   }
 
   const file = req.files.file;
+  console.log('file', file);
+
   //Make sure image is photo
   if (!file.mimetype.startsWith('image')) {
     return next(new ErrorResponse(`Please upload an image file`, 400));
@@ -131,7 +138,7 @@ exports.uploadDoctorPhoto = asyncHandler(async (req, res, next) => {
       return next(new ErrorResponse('Problem with file upload', 500));
     }
 
-    await Doctor.findByIdAndUpdate(req.params.id, { photo: file.name });
+    await Doctor.findOneAndUpdate({ user: req.user.id }, { photo: file.name });
     res.status(200).json({ success: true, data: file.name });
   });
 });

@@ -5,6 +5,10 @@ const AppointmentSchema = new mongoose.Schema({
     type: mongoose.Schema.ObjectId,
     ref: 'Doctor'
   },
+  patient: {
+    type: mongoose.Schema.ObjectId,
+    ref: 'Patient'
+  },
   status: {
     type: String,
     required: true
@@ -12,10 +16,6 @@ const AppointmentSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
     default: Date.now()
-  },
-  patient: {
-    type: mongoose.Schema.ObjectId,
-    ref: 'Patient'
   },
   appointment: [
     {

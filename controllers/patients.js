@@ -22,12 +22,12 @@ exports.getPatients = asyncHandler(async (req, res, next) => {
 //@route        GET /api/v1/patients/:id
 //@access       Public
 exports.getPatient = asyncHandler(async (req, res, next) => {
-  const patient = await Patient.findById(req.params.id);
+  const patient = await Patient.findOne({ user: req.user.id });
 
   if (!patient) {
     return next(
       new ErrorResponse(
-        `Patient profile with id of ${req.params.id} not found`,
+        `Patient profile with id of ${req.user.id} not found`,
         404
       )
     );
@@ -44,15 +44,6 @@ exports.getPatient = asyncHandler(async (req, res, next) => {
 exports.registerPatient = asyncHandler(async (req, res, next) => {
   const patient = await Patient.create(req.body);
 
-  if (!patient) {
-    return next(
-      new ErrorResponse(
-        `Patient profile with id of ${req.params.id} not found`,
-        404
-      )
-    );
-  }
-
   res.status(200).json({ success: true, data: patient });
 });
 
@@ -60,15 +51,19 @@ exports.registerPatient = asyncHandler(async (req, res, next) => {
 //@route        PUT /api/v1/patients/:id
 //@access       Private
 exports.updatePatient = asyncHandler(async (req, res, next) => {
-  const patient = await Patient.findByIdAndUpdate(req.params.id, req.body, {
-    new: true,
-    runValidators: true
-  });
+  const patient = await Patient.findOneAndUpdate(
+    { user: req.user.id },
+    req.body,
+    {
+      new: true,
+      runValidators: true
+    }
+  );
 
   if (!patient) {
     return next(
       new ErrorResponse(
-        `Patient profile with id of ${req.params.id} not found`,
+        `Patient profile with id of ${req.user.id} not found`,
         404
       )
     );
@@ -81,12 +76,12 @@ exports.updatePatient = asyncHandler(async (req, res, next) => {
 //@route        DELETE /api/v1/patients/:id
 //@access       Private
 exports.deletePatient = asyncHandler(async (req, res, next) => {
-  const patient = await Patient.findByIdAndDelete(req.params.id);
+  const patient = await Patient.findOneAndDelete({ user: req.user.id });
 
   if (!patient) {
     return next(
       new ErrorResponse(
-        `Patient profile with id of ${req.params.id} not found`,
+        `Patient profile with id of ${req.user.id} not found`,
         404
       )
     );
@@ -99,12 +94,12 @@ exports.deletePatient = asyncHandler(async (req, res, next) => {
 //@route        PUYT /api/v1/patients/:id/photo
 //@access       Private
 exports.uploadPatientPhoto = asyncHandler(async (req, res, next) => {
-  const patient = await Patient.findById(req.params.id);
+  const patient = await Patient.findOne({ user: req.user.id });
 
   if (!patient) {
     return next(
       new ErrorResponse(
-        `Patient profile with id of ${req.params.id} not found`,
+        `Patient profile with id of ${req.user.id} not found`,
         404
       )
     );
@@ -140,7 +135,7 @@ exports.uploadPatientPhoto = asyncHandler(async (req, res, next) => {
       return next(new ErrorResponse(`Problem with file upload`, 500));
     }
 
-    await Patient.findById(req.params.id, { photo: file.name });
+    await Patient.findOne({ user: req.user.id }, { photo: file.name });
     res.status(200).json({ success: true, data: file.name });
   });
 });

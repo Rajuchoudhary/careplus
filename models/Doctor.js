@@ -50,10 +50,6 @@ const DoctorSchema = new mongoose.Schema({
       type: [String],
       required: [true, 'Please select your time']
     }
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now()
   }
 });
 

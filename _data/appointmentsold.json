@@ -1,0 +1,140 @@
+[
+  {
+    "_id": "5d7a514b5d2c12c7449be021",
+    "doctor": "5d7a514b5d2c12c7449be042",
+    "patient": "5d7a514b5d2c12c7449be052",
+    "appointment": [
+      {
+        "status": "open",
+        "day": "monday",
+        "time": "8 AM - 2 PM"
+      }
+    ]
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be022",
+    "doctor": "5d7a514b5d2c12c7449be043",
+    "patient": "5d7a514b5d2c12c7449be054",
+    "appointment": [
+      {
+        "status": "open",
+        "day": "thursday",
+        "time": "2 PM - 5 PM"
+      }
+    ]
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be023",
+    "doctor": "5d7a514b5d2c12c7449be044",
+    "patient": "5d7a514b5d2c12c7449be052",
+    "appointment": [
+      {
+        "status": "closed",
+        "day": "wednesday",
+        "time": "8 AM - 2 PM"
+      }
+    ]
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be024",
+    "doctor": "5d7a514b5d2c12c7449be045",
+    "patient": "5d7a514b5d2c12c7449be056",
+    "appointment": [
+      {
+        "status": "open",
+        "day": "tuesday",
+        "time": "2 PM - 5 PM"
+      }
+    ]
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be025",
+    "doctor": "5d7a514b5d2c12c7449be046",
+    "patient": "5d7a514b5d2c12c7449be055",
+    "appointment": [
+      {
+        "status": "open",
+        "day": "friday",
+        "time": "8 AM - 2 PM"
+      }
+    ]
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be026",
+    "doctor": "5d7a514b5d2c12c7449be031",
+    "appointment": [
+      {
+        "patient": "5c8a1d5b0190b214360dc061",
+        "status": "closed",
+        "day": "saturday",
+        "time": "2 PM - 5 PM"
+      }
+    ]
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be027",
+    "doctor": "5d7a514b5d2c12c7449be032",
+    "appointment": [
+      {
+        "patient": "5c8a1d5b0190b214360dc062",
+        "status": "open",
+        "day": "monday",
+        "time": "8 AM - 2 PM"
+      }
+    ]
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be028",
+    "doctor": "5d7a514b5d2c12c7449be033",
+    "appointment": [
+      {
+        "patient": "5c8a1d5b0190b214360dc063",
+        "status": "closed",
+        "day": "thursday",
+        "time": "2 PM - 5 PM"
+      },
+      {
+        "patient": "",
+        "status": "open",
+        "day": "saturday",
+        "time": "2 PM - 5 PM"
+      }
+    ]
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be029",
+    "doctor": "5d7a514b5d2c12c7449be034",
+    "appointment": [
+      {
+        "patient": "5c8a1d5b0190b214360dc064",
+        "status": "closed",
+        "day": "monday",
+        "time": "8 AM - 2 PM"
+      },
+      {
+        "patient": "",
+        "status": "open",
+        "day": "friday",
+        "time": "4 AM - 6 PM"
+      }
+    ]
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be030",
+    "doctor": "5d7a514b5d2c12c7449be035",
+    "appointment": [
+      {
+        "patient": "5c8a1d5b0190b214360dc065",
+        "status": "closed",
+        "day": "tuesday",
+        "time": "10 AM - 2 PM"
+      },
+      {
+        "patient": "",
+        "status": "closed",
+        "day": "thursday",
+        "time": "2 PM - 5 PM"
+      }
+    ]
+  }
+]

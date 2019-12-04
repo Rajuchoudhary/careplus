@@ -13,12 +13,12 @@ const AppointmentSchema = new mongoose.Schema({
     type: Date,
     default: Date.now()
   },
+  patient: {
+    type: mongoose.Schema.ObjectId,
+    ref: 'Patient'
+  },
   appointment: [
     {
-      patient: {
-        type: mongoose.Schema.ObjectId,
-        ref: 'Patient'
-      },
       day: {
         type: String,
         required: true

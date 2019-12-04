@@ -1,17 +1,13 @@
 const mongoose = require('mongoose');
 
 const PatientSchema = new mongoose.Schema({
-  userId: {
+  user: {
     type: mongoose.Schema.ObjectId,
     ref: 'User'
   },
   photo: {
     type: String,
     default: 'photo.jpg'
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now()
   }
 });
 
